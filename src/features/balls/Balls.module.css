@@ -1,0 +1,25 @@
+.ballsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.add{
+    padding: 20px;
+    margin: 40px;
+}
+.remove{
+    margin: 40px;
+    padding: 20px;
+}
